@@ -1,0 +1,47 @@
+.duo-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.duo-item {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text {
+  padding: 30px;
+}
+
+
+.duo-item img {
+  width: 100%;
+}
+
+
+p {
+  font-size: 30px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: justify;
+  font-weight: lighter;
+  color: white;
+}
+
+.text-white{
+  color: white;
+}
+
+h2{
+  font-size: 40px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+
+.leyenda-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap :10px;
+}
