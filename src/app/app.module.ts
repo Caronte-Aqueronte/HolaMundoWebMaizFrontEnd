@@ -8,6 +8,8 @@ import { HttpClientModule } from '@angular/common/http';
 import { SliderComponent } from './slider/slider.component';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { LikeComponent } from './like/like.component';
+import { ComentariosSectionComponent } from './comentarios-section/comentarios-section.component';
+import { ComentarioComponent } from './comentario/comentario.component';
 
 @NgModule({
   declarations: [
@@ -15,6 +17,8 @@ import { LikeComponent } from './like/like.component';
     SliderComponent,
     NavBarComponent,
     LikeComponent,
+    ComentariosSectionComponent,
+    ComentarioComponent,
   ],
   imports: [
     BrowserModule,

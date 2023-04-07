@@ -48,3 +48,13 @@
   opacity: 1;
   top: 105%;
 }
+
+p{
+  font-size: 25px;
+  color: white;
+}
+
+.like-container{
+  display: flex;
+  padding-left: 30px;
+}

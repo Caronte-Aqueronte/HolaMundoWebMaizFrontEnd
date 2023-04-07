@@ -1,15 +1,19 @@
 import { Component, OnInit } from '@angular/core';
 import * as AOS from 'aos';
+import { Comentario } from './clases/comentario';
+import { ComentarioService } from './servicios/comentario.service';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  styleUrls: ['./app.component.css'],
 })
-
-//http://localhost/MaizBackend/src/main/controllers/UsuarioControllers/
-
 export class AppComponent implements OnInit {
-  constructor() {}
+
+
+
+  constructor() {
+
+  }
 
   ngOnInit(): void {
     AOS.init();

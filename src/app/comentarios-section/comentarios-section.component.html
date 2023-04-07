@@ -1,0 +1,19 @@
+<div class="form-container">
+  <form [formGroup]="formComentario" (submit)="nuevoComentario()">
+    <div class="group">
+      <textarea required="" type="text" class="input" formControlName="comentario">
+      </textarea>
+      <label>Agrega un comentario</label>
+    </div>
+    <!-- Boton de ingresar -->
+    <div class="buttons">
+      <button class="btn" [disabled]="formComentario.invalid">
+        <span></span>
+        <p data-text="Ok!" data-title="Comenta"></p>
+      </button>
+    </div>
+  </form>
+</div>
+<div class="coments-container ">
+  <app-comentario [datosComentario]="comentario" *ngFor="let comentario of comentarios"></app-comentario>
+</div>

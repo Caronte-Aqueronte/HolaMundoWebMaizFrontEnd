@@ -26,4 +26,8 @@ export class NavBarComponent {
   aCuartaLeyenda(): void {
     document?.getElementById('cuartaLeyenda')?.scrollIntoView();
   }
+
+  aComentarios(): void {
+    document?.getElementById('comentarios')?.scrollIntoView();
+  }
 }
